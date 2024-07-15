@@ -34,24 +34,27 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/touhi13/patient-management-client.git
-   cd patient-management-client
+   git clone https://github.com/touhi13/cis-skill-evaluation-test-frontend.git
    ```
+2. **Navigate to the project directory:**
 
-2. **Install dependencies:**
+    ```bash
+    cd cis-skill-evaluation-test-frontend
+    ```
+3. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-3. **Add environment variables:**
+4. **Add environment variables:**
    Create a `.env` file in the root of the project and add the necessary environment variables. For example:
 
    ```env
    VITE_REACT_APP_API_URL=http://127.0.0.1:8000/
    ```
 
-4. **Start the development server:**
+5. **Start the development server:**
 
    ```bash
    npm run dev
